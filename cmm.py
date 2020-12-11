@@ -12,7 +12,7 @@ def MatrixChainOrder(p):
     s = [[0 for i in range(n)] for j in range(n)]
     #dp[i,j] = Numero escalar minimo de multiplicaciones
     #necesarias para calcular la matriz A[i]A[i+1]...A[j]
-    #donde la dimension de A[i] es arr[i-1]xp[i]
+    #donde la dimension de A[i] es p[i-1]xp[i]
     
     #El costo de multiplicar una sola matriz(Caso base)
     for i in range(0, n):
